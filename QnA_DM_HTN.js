@@ -1,7 +1,7 @@
 project.QnA = [
     {
         q: ["What (does|is) (the|) DM (mean|stand for|denote|)?", "What is meant by DM?"],
-        a: ["Diabetes, or diabetes mellitus, is a disorder that disrupts the way the body uses sugar (glucose), causing too much sugar in the blood stream"]
+        a: ["Diabetes, or diabetes mellitus, is a disorder that disrupts the way the body uses sugar, or glucose, causing too much sugar in the blood stream"]
     },
     {
         q: ["(Why|How|What) (do I have|did I get|have I got|is the cause of|causes|caused) (my|the|) (diabetes|DM)?"],
@@ -9,7 +9,7 @@ project.QnA = [
     },
     {
         q: ["What are (the|) (different|) (types|) (of|) (diabetes|DM)?", "(What|How many) types of (diabetes|DM) are there?"],
-        a: ["The main types of diabetes are: Type 1, Type 2, Gestational (being pregnant), damage to the pancreas from drugs or disease"]
+        a: ["The main types of diabetes are: Type 1, Type 2, Gestational, being pregnant, damage to the pancreas from drugs or disease"]
     },
     {
         q: ["(Is|Can) (diabetes|DM) (be|) (hereditary|inherited|familial) (in|from|) (the|) (family|parents|mother|farther|)?"],
@@ -57,11 +57,11 @@ project.QnA = [
     },
     {
         q: ["At what level_ of (blood|) (sugar|glucose) should I (be|) (concerned|panic)?", "What level_ of (blood|) (sugar|glucose) (is|are) (dangerous|unhealthy|bad)?"],
-        a: ["Less than 70 (mg/dl) or well above the normal range of 70-150 (mg/dl). Complications of type 1 and type 2 diabetes can lead to developing Diabetic-ketoacidosis or Hyperosmolar nonketotic syndrome with blood sugar levels greater than 250 milligrams per deciliter or levels as high as 600 milligrams per deciliter or higher"]
+        a: ["Less than 70 mg/dl or well above the normal range of 70-150 mg/dl. Complications of type 1 and type 2 diabetes can lead to developing Diabetic-ketoacidosis or Hyperosmolar nonketotic syndrome with blood sugar levels greater than 250 mg/dl or levels as high as 600 mg/dl or higher"]
     },
     {
         q: ["(What|) if I do not take my (diabetes|DM) (med_|medication_|drug_|medicine), (what|) (will|) (happens|happen|)?"],
-        a: ["Your blood sugar will return to high levels (hyperglycemia), leading to acute complications, such as increased thirst, increased urine volume, and life-threatening condition called Diabetic Ketoacidosis. Over time you will increase your risk of stroke, kidney problems, vision damage, heart disease, nerve damage, gum disease, and loss of limb. Please discuss with your medical provider before discontinuing any diabetes medications"]
+        a: ["Your blood sugar will return to high levels, hyperglycemia, leading to acute complications, such as increased thirst, increased urine volume, and life-threatening condition called Diabetic Ketoacidosis. Over time you will increase your risk of stroke, kidney problems, vision damage, heart disease, nerve damage, gum disease, and loss of limb. Please discuss with your medical provider before discontinuing any diabetes medications"]
     },
     {
         q: ["(Does|Can) (stress|anxiety) (affect|raise|increase|elevate|impact|cause) (my|the|) (high|increased|) (blood|) (sugar|glucose) (level_|)?"],
@@ -73,14 +73,14 @@ project.QnA = [
     },
     {
         q: ["(Will|Do|Does|Can|) (I|one|) gain weight (with|because of|due to) (diabetes|DM)?"],
-        a: ["Weight gain is a sign that the insulin is effective and your body is processing sugar, fat and proteins and is able to store nutrients. Food intake needs to be adjusted in order to maintain weight accordingly. Diabetics are at risk for dehydration with frequent urination and thirst as common symptoms, but when blood sugar levels are managed mild weight gain may occur"]
+        a: ["Weight gain is a sign that the insulin is effective and your body is processing sugar, fat and proteins and is able to store nutrients. Food intake needs to be adjusted in order to maintain weight accordingly. Diabetics are at risk for dehydration with frequent urination and thirst as common symptoms, but when blood sugar levels are managed, mild weight gain may occur"]
     },
     {
         q: ["(What|Which) (organs|) (does|will|are|can be) (diabetes|DM) (affect|impact|affected|impacted) (in|) (the|my|) (body|)?"],
         a: ["Diabetes can affect your: heart, kidneys, eyes, nerves, blood vessels"]
     },
     {
-        q: ["Should I (be|follow) (on|) a diet?", "What is a (healthy|) diet for (diabetes|DM)?", "What diet is (the|) (better|best|recommended) for (diabetes|DM)?", "What (foods|) should I eat if I have (diabetes|DM)?"],
+        q: ["Should I (be|follow) (on|) a diet?", "What is a (healthy|) diet for (diabetes|DM)?", "What diet is (the|) (better|best|recommended) for (diabetes|DM)?", "What (foods|) should I eat if I have (diabetes|DM)?", "What should I (avoid|stop eating) to (reduce|lower|decrease|improve) (my|the|) (blood|) (glucose|sugar) (level_|)?"],
         a: ["Discuss with your nutritionist on what type of diet works best for you. The Diabetes Plate Method can help you create easy, well portioned meals with a balance of protein, vegetables, and carbohydrates. Avoid foods high in trans & saturated fats, sweets, foods high in salt, and beverages with added sugars"]
     },
     {
@@ -90,10 +90,6 @@ project.QnA = [
     {
         q: ["What (foods|diet|) (should I|to|) (eat|follow|be on|) (is|) (better|the best|recommended|) to (reduce|lower|decrease|improve) (my|the|) (blood|) (glucose|sugar) (level_|)?"],
         a: ["The Diabetes Plate Method can help you create easy, well portioned meals with a balance of protein, vegetables, and carbohydrates"]
-    },
-    {
-        q: ["What should I (avoid|stop eating) to (reduce|lower|decrease|improve) (my|the|) (blood|) (glucose|sugar) (level_|)?"],
-        a: ["Avoid foods high in trans & saturated fats, sweets, foods high in salt, and beverages with added sugars"]
     },
     {
         q: ["(Does|Do) (alcohol|alcoholic) (drinks|beverages|) (impact|affect|raise|elevate|increase) (my|the|) (blood|) (glucose|sugar) (level_|)?", "(What|How) about alcohol?"],
@@ -125,11 +121,11 @@ project.QnA = [
     },
     {
         q: ["Besides (the|) (blood|) (glucose|sugar) (test|), what (labs|tests) (do|should) I (look at|consider|do)?"],
-        a: ["The most important lab is HbA1C, and the goal is a level of between 7 and 8% (6% for gestational diabetes)"]
+        a: ["The most important lab is HbA1C, and the goal is a level of between 7 and 8%, or 6% for gestational diabetes"]
     },
     {
         q: ["What (tools|devices|sensors|means) can I use to monitor my (blood|) (glucose|sugar) (level_|)?"],
-        a: ["Frequent testing of blood glucose by: fingerstick testing (BGM) or CGM device"]
+        a: ["Frequent testing of blood glucose by: fingerstick testing, or BGM, and CGM device"]
     },
     {
         q: ["What (is|does) gestational (diabetes|DM) (mean|)?", "What is meant by gestational (diabetes|DM)?"],
@@ -149,18 +145,18 @@ project.QnA = [
     },
     {
         q: ["(Why|How|What) (do I have|did I get|have I got|is the cause of|causes|caused) (my|the|) (hypertension|HTN|high blood pressure)?"],
-        a: ["HTN may develop because of factors out of your control: age, FMH, race, pregnancy, and certain rare diseases of the kidneys or adrenal glands or factors you can control: obesity, smoking, drug or alcohol use, stress, obstructive sleep apnea, prescription or OTC medications, high salt or low potassium diet, and inactivity. Nearly half of American adults have high blood pressure, and most don't know they have it"]
+        a: ["HTN may develop because of factors out of your control: age, FMH, race, pregnancy, and certain rare diseases of the kidneys or adrenal glands, or factors you can control: obesity, smoking, drug or alcohol use, stress, obstructive sleep apnea, prescription or OTC medications, high salt or low potassium diet, and inactivity. Nearly half of American adults have high blood pressure, and most don't know they have it"]
     },
     {
         q: ["(Is|Can) (hypertension|HTN|high blood pressure) (be|) (hereditary|inherited|familial) (in|from|) (the|) (family|parents|mother|farther|)?"],
-        a: ["A FMH of HTN can increase your risk of developing HTN"]
+        a: ["A family history of hypertension can increase your risk of developing hypertension"]
     },
     {
         q: ["(Do|Should) I (have to|need to|need|require|) (take|) (med_|medication_|drug_|medicine) (for|against)  (hypertension|HTN|high blood pressure)?"],
         a: ["First, try to take control of the things you are able to change, such as smoking cessation, losing weight, regular exercise, stress management, and eating a diet with less sodium and alcohol. Shared decision-making between patient and provider are paramount."]
     },
     {
-        q: ["What (is|are) (the|) (different|) (types|classes|kinds|) (of|) (med_|medication_|drug_|medicine) (against|for|) (hypertension|HTN|high blood pressure)?"],
+        q: ["What (is|are) (the|) (med_|medication_|drug_|medicine) (against|for) (hypertension|HTN|high blood pressure)?"],
         a: ["There are many different high blood pressure medications. How well a drug works depends on the person's age, sex, race, blood pressure level and other coexisting medical problems. Combining two drugs sometimes works better than a single drug to get blood pressure under control."]
     },
     {
@@ -169,7 +165,7 @@ project.QnA = [
     },
     {
         q: ["(Does|Can) (hypertension|HTN|high blood pressure) (cause|lead to) (a|the|) (heart|) stroke?"],
-        a: ["Stroke is a leading cause of death and severe, long-term disability. Most people who’ve had a first stroke also had high blood pressure. A stroke occurs when a blood vessel to the brain is narrowed or blocked by a clot (ischemic stroke) or bursts (hemorrhagic stroke). When that happens, part of the brain is no longer getting the blood and oxygen it needs, so it starts to die"]
+        a: ["Stroke is a leading cause of death and severe, long-term disability. Most people who’ve had a first stroke also had high blood pressure. A stroke occurs when a blood vessel to the brain is narrowed or blocked by a clot - ischemic stroke - or bursts - hemorrhagic stroke. When that happens, part of the brain is no longer getting the blood and oxygen it needs, so it starts to die"]
     },
     {
         q: ["(Does|Can) (hypertension|HTN|high blood pressure) (cause|lead to) (a|the|) kidney (problem_|disease_)?"],
@@ -185,15 +181,15 @@ project.QnA = [
     },
     {
         q: ["What (labs|test) (do|should|can) I (need to|) (look at|do|take) (to manage|for|) (hypertension|HTN|high blood pressure)?"],
-        a: ["Lab tests include urinalysis, blood cell count, blood chemistry, and an electrocardiogram. Additional tests may be recommended based on your condition"]
+        a: ["The following tests should be performed in all patients with newly diagnosed hypertension: Electrolytes, including calcium, and serum creatinine to calculate the estimated glomerular filtration rate: fasting glucose, urinalysis, complete blood count, thyroid-stimulating hormone, lipid profile, electrocardiogram. Additional tests may be indicated in certain settings: urinary albumin to creatinine ratio in DM or CKD patients, and echocardiogram to assess for LVH."]
     },
     {
         q: ["What (is|are) (the|) (different|) (types|classes|kinds|) (of|) (med_|medication_|drug_|medicine) (against|for|) (hypertension|HTN|high blood pressure)?"],
-        a: ["Most guidelines and recommendations, including the 2017 ACC/AHA guidelines, recommend that initial therapy be chosen from among the following four classes of medications: Thiazide-like or thiazide-type diuretics, long-acting calcium channel blockers (most often a dihydropyridine such as amlodipine), Angiotensin-converting enzyme (ACE) inhibitors, Angiotensin II receptor blockers (ARBs)"]
+        a: ["Most guidelines and recommendations, including the 2017 ACC/AHA guidelines, recommend that initial therapy be chosen from among the following four classes of medications: Thiazide-like or thiazide-type diuretics, long-acting calcium channel blockers, most often a dihydropyridine such as amlodipine, Angiotensin-converting enzyme, or ACE, inhibitors, Angiotensin II receptor blockers, or ARBs"]
     },
     {
         q: ["What (is|are) (the|) (different|) (types|classes|kinds|) (of|) (hypertension|HTN|high blood pressure) (med_|medication_|drug_|medicine) side effects?"],
-        a: ["Thiazide diuretics side effects include: low potassium, low sodium, low magnesium levels, increased plasma glucose levels, and increase cholesterol levels. However, the probability of developing these side effects and their severity are less likely when with low-dose therapy. Long-acting calcium channel blockers: side effects vary with the type and dosage--with dihydropyridines, you can experience lightheadedness, headaches, flushing, and swelling to your legs. With non-dihydropyridines (diltiazem & verapamil), one can experience constipation, slow heart rate. Angiotensin-converting enzyme (ACE) inhibitors: side effects include cough, swelling beneath the skin, severe allergic reaction, low blood pressure, kidney injury, and high potassium levels. Angiotensin II receptor blockers (ARBs): side effects are similar to those of ACE inhibitors, however ARBS have lower incidences of cough and swelling under the skin and probably an increased rate of low blood pressure symptoms than ACE inhibitors"]
+        a: ["Thiazide diuretics side effects include: low potassium, low sodium, low magnesium levels, increased plasma glucose levels, and increase cholesterol levels. However, the probability of developing these side effects and their severity are less likely when with low-dose therapy. Long-acting calcium channel blockers: side effects vary with the type and dosage--with dihydropyridines, you can experience lightheadedness, headaches, flushing, and swelling to your legs. With non-dihydropyridines (diltiazem & verapamil), one can experience constipation, slow heart rate. Angiotensin-converting enzyme (ACE) inhibitors: side effects include cough, swelling beneath the skin, severe allergic reaction, low blood pressure, kidney injury, and high potassium levels. Angiotensin II receptor blockers, or ARBs: side effects are similar to those of ACE inhibitors, however ARBS have lower incidences of cough and swelling under the skin and probably an increased rate of low blood pressure symptoms than ACE inhibitors"]
     },
     {
         q: ["(Does|Do) (smoking|cigarettes|tobbaco) (cause_|lead_ to) (hypertension|HTN|high blood pressure)?"],
@@ -201,7 +197,7 @@ project.QnA = [
     },
     {
         q: ["What (foods|diet|) (do I|should I|to|) (eat|follow|be on|) (is|) (better|the best|recommended|) (to|) (reduce|lower|decrease|improve|If I have) (my|the|) (hypertension|HTN|high blood pressure)?"],
-        a: ["The DASH, or Dietary Approaches to Stop Hypertension diet is a healthy eating plan that is proven to decrease blood pressure", "Eat a well-balanced diet, which includes vegetables, whole grains, low-fat dairy products, skinless poultry, fish, nuts and legumes, non-tropical vegetable oils, and fruit, DASH diet"]
+        a: ["The DASH, or Dietary Approaches to Stop Hypertension diet is a healthy eating plan that is proven to decrease blood pressure. Eat a well-balanced diet, which includes vegetables, whole grains, low-fat dairy products, skinless poultry, fish, nuts and legumes, non-tropical vegetable oils, and fruit"]
     },
     {
         q: ["(What|) (does|will|can) Asprin (do|help) (for|) me?"],
@@ -225,11 +221,11 @@ project.QnA = [
     },
     {
         q: ["(Does|Can) (stress|anxiety) (cause|lead to|elevate) (my|the|) (hypertension|HTN|blood pressure)?"],
-        a: ["While the link between stress and high blood pressure (HBP or hypertension) is still being studied, stress is known to contribute to risk factors like a poor diet and excessive alcohol consumption"]
+        a: ["While the link between stress and high blood pressure is still being studied, stress is known to contribute to risk factors like a poor diet and excessive alcohol consumption"]
     },
     {
         q: ["(How|) (do|should|can) (I|one) control (my|the|) (hypertension|HTN|blood pressure level)?"],
-        a: ["Exercise (aerobic, dynamic resistance, and isometric resistance) is an effective means of lowering blood pressure. You should also: lose weight (if you are overweight), choose a diet low in fat and rich in fruits, vegetables, and low-fat dairy products, reduce the amount of salt you eat, reduce how much alcohol you drink (if you drink more than 2 alcoholic drinks per day) and use a home blood pressure meter. People who check their own blood pressure at home do better at keeping it low and can sometimes even reduce the amount of medicine they take"]
+        a: ["Exercise - aerobic, dynamic resistance, and isometric resistance - is an effective means of lowering blood pressure. You should also: lose weight if you are overweight, choose a diet low in fat and rich in fruits, vegetables, and low-fat dairy products, reduce the amount of salt you eat, reduce how much alcohol you drink, if you drink more than 2 alcoholic drinks per day, and use a home blood pressure meter. People who check their own blood pressure at home do better at keeping it low and can sometimes even reduce the amount of medicine they take"]
     },
     {
         q: ["Am I on the right (med_|medication_|drug_|medicine)?"],
@@ -286,6 +282,10 @@ project.QnA = [
     {
         q: ["(Does|Can) (hypertension|HTN|high blood pressure) (cause|lead to) obesity?"],
         a: ["Excess weight gain, especially when associated with increased visceral adiposity, is a major cause of hypertension"]
+    },
+    {
+        q: ["(Does|Can) (hypertension|HTN|high blood pressure) (cause|lead to) erectile dysfunction?"],
+        a: ["It is estimated that 80% of erectile dysfunction is most often associated with high blood pressure. If you are experiencing erectile dysfunction often, you should speak to your health care provider"]
     }
 ];
 
