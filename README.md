@@ -1,0 +1,1 @@
+# MediKarma-TestProject
