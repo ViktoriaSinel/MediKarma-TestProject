@@ -64,14 +64,6 @@ project.QnA = [
         a: ["Your blood sugar will return to high levels, hyperglycemia, leading to acute complications, such as increased thirst, increased urine volume, and life-threatening condition called Diabetic Ketoacidosis. Over time you will increase your risk of stroke, kidney problems, vision damage, heart disease, nerve damage, gum disease, and loss of limb. Please discuss with your medical provider before discontinuing any diabetes medications"]
     },
     {
-        q: ["(Does|Can) (stress|anxiety) (affect|raise|increase|elevate|impact|cause) (my|the|) (high|increased|) (blood|) (sugar|glucose) (level_|)?"],
-        a: ["Yes, stress can raise your blood glucose levels. Your body releases stress hormones when you are stressed. These hormones make it difficult for insulin to function properly, therefore causing your blood sugar to rise. Prolonged stress can potentially cause diabetic complications. Type 1 diabetics who suffer from chronic stress may experience a drop in blood sugar with prolonged exposures to stress and adrenal fatigue syndrome. Discuss with your medical provider on coping mechanisms for your stress and to ensure your blood sugar is under control"]
-    },
-    {
-        q: ["Does (physical|) (excercise|activity) (help|reduce|decrease|lower|affect|improve|impact) (my|the|) (blood|) (sugar|glucose) (level_|)?"],
-        a: ["Yes, exercise is beneficial for those with or without diabetes. Generally, exercise can help lower and regulate your blood sugar levels if you are regularly active and helps with quality of life. Exercise can also cause your blood sugar to rise. Certain workouts such as sprinting, heavy weightlifting , HIIT workouts, etc., can cause your body to produce stress hormones, which increase your blood sugar levels. It is recommended to check blood sugar before and after activities to help identify qs your body responds to. Discuss with your healthcare provider prior starting an exercise program or regimen"]
-    },
-    {
         q: ["(Will|Do|Does|Can|) (I|one|) gain weight (with|because of|due to) (diabetes|DM)?"],
         a: ["Weight gain is a sign that the insulin is effective and your body is processing sugar, fat and proteins and is able to store nutrients. Food intake needs to be adjusted in order to maintain weight accordingly. Diabetics are at risk for dehydration with frequent urination and thirst as common symptoms, but when blood sugar levels are managed, mild weight gain may occur"]
     },
@@ -88,7 +80,7 @@ project.QnA = [
         a: ["Prediabetes is when blood sugar levels are higher than normal, but not too high to be diagnosed as diabetes"]
     },
     {
-        q: ["What (foods|diet|) (should I|to|) (eat|follow|be on|) (is|) (better|the best|recommended|) to (reduce|lower|decrease|improve) (my|the|) (blood|) (glucose|sugar) (level_|)?"],
+        q: ["What (foods|) (should I|to|) (eat|follow|be on|) (is|) (better|the best|recommended|) to (reduce|lower|decrease|improve) (my|the|) (blood|) (glucose|sugar) (level_|)?"],
         a: ["The Diabetes Plate Method can help you create easy, well portioned meals with a balance of protein, vegetables, and carbohydrates"]
     },
     {
@@ -145,7 +137,7 @@ project.QnA = [
     },
     {
         q: ["(Why|How|What) (do I have|did I get|have I got|is the cause of|causes|caused) (my|the|) (hypertension|HTN|high blood pressure)?"],
-        a: ["HTN may develop because of factors out of your control: age, FMH, race, pregnancy, and certain rare diseases of the kidneys or adrenal glands, or factors you can control: obesity, smoking, drug or alcohol use, stress, obstructive sleep apnea, prescription or OTC medications, high salt or low potassium diet, and inactivity. Nearly half of American adults have high blood pressure, and most don't know they have it"]
+        a: ["Hypertension may develop because of factors out of your control: age, family history, race, pregnancy, and certain rare diseases of the kidneys or adrenal glands, or factors you can control: obesity, smoking, drug or alcohol use, stress, obstructive sleep apnea, prescription or OTC medications, high salt or low potassium diet, and inactivity. Nearly half of American adults have high blood pressure, and most don't know they have it"]
     },
     {
         q: ["(Is|Can) (hypertension|HTN|high blood pressure) (be|) (hereditary|inherited|familial) (in|from|) (the|) (family|parents|mother|farther|)?"],
@@ -158,10 +150,6 @@ project.QnA = [
     {
         q: ["What (is|are) (the|) (med_|medication_|drug_|medicine) (against|for) (hypertension|HTN|high blood pressure)?"],
         a: ["There are many different high blood pressure medications. How well a drug works depends on the person's age, sex, race, blood pressure level and other coexisting medical problems. Combining two drugs sometimes works better than a single drug to get blood pressure under control."]
-    },
-    {
-        q: ["(Does|Can) (hypertension|HTN|high blood pressure) (cause|lead to) (a|the|) heart (problem_|disease_|attack)?"],
-        a: ["High blood pressure causes excess strain on the coronary arteries serving the heart muscle. These arteries slowly become narrowed by plaque, which is a buildup of fat, cholesterol and other substances. As arteries harden with plaque, blood clots are more likely to form. When an artery becomes blocked due to plaque buildup or a blood clot, the flow of blood through the heart muscle is blocked, starving the muscle of oxygen and nutrients. The damage or death of part of the heart muscle that occurs as a result is a heart attack."]
     },
     {
         q: ["(Does|Can) (hypertension|HTN|high blood pressure) (cause|lead to) (a|the|) (heart|) stroke?"],
@@ -188,24 +176,12 @@ project.QnA = [
         a: ["Most guidelines and recommendations, including the 2017 ACC/AHA guidelines, recommend that initial therapy be chosen from among the following four classes of medications: Thiazide-like or thiazide-type diuretics, long-acting calcium channel blockers, most often a dihydropyridine such as amlodipine, Angiotensin-converting enzyme, or ACE, inhibitors, Angiotensin II receptor blockers, or ARBs"]
     },
     {
-        q: ["What (is|are) (the|) (different|) (types|classes|kinds|) (of|) (hypertension|HTN|high blood pressure) (med_|medication_|drug_|medicine) side effects?"],
-        a: ["Thiazide diuretics side effects include: low potassium, low sodium, low magnesium levels, increased plasma glucose levels, and increase cholesterol levels. However, the probability of developing these side effects and their severity are less likely when with low-dose therapy. Long-acting calcium channel blockers: side effects vary with the type and dosage--with dihydropyridines, you can experience lightheadedness, headaches, flushing, and swelling to your legs. With non-dihydropyridines (diltiazem & verapamil), one can experience constipation, slow heart rate. Angiotensin-converting enzyme (ACE) inhibitors: side effects include cough, swelling beneath the skin, severe allergic reaction, low blood pressure, kidney injury, and high potassium levels. Angiotensin II receptor blockers, or ARBs: side effects are similar to those of ACE inhibitors, however ARBS have lower incidences of cough and swelling under the skin and probably an increased rate of low blood pressure symptoms than ACE inhibitors"]
-    },
-    {
-        q: ["(Does|Do) (smoking|cigarettes|tobbaco) (cause_|lead_ to) (hypertension|HTN|high blood pressure)?"],
-        a: ["Long term tobacco smoking and its association with causing hypertension is uncertain. However immediate consequences of tobacco smoking can transiently increase your blood pressure, increase your heart rate and cause your heart to increase its demand for oxygen consumption. Moreover, tobacco smoking significantly increases risk of fatty deposits building up in your arteries and kidney disease if you have hypertension"]
-    },
-    {
         q: ["What (foods|diet|) (do I|should I|to|) (eat|follow|be on|) (is|) (better|the best|recommended|) (to|) (reduce|lower|decrease|improve|If I have) (my|the|) (hypertension|HTN|high blood pressure)?"],
         a: ["The DASH, or Dietary Approaches to Stop Hypertension diet is a healthy eating plan that is proven to decrease blood pressure. Eat a well-balanced diet, which includes vegetables, whole grains, low-fat dairy products, skinless poultry, fish, nuts and legumes, non-tropical vegetable oils, and fruit"]
     },
     {
         q: ["(What|) (does|will|can) Asprin (do|help) (for|) me?"],
         a: ["Aspirin has various effects depending on its strength"]
-    },
-    {
-        q: ["Are there any symptoms (I will|) (feel|get|have|)?", "What are (the|) (hypertension|HTN|high blood pressure) symptoms?"],
-        a: ["Most of the time there are no symptoms. About 103 million U.S. adults have high blood pressure — and many of them do not know it or do not experience typical symptoms. This is why HTN is often called the silent killer. A few people with high blood pressure may have headaches, shortness of breath or nosebleeds, but these signs and symptoms aren't specific and usually don't occur until high blood pressure has reached a severe or life-threatening stage"]
     },
     {
         q: ["How (do|should|can) I (monitor|check) (my|the|) blood pressure?"],
@@ -224,10 +200,6 @@ project.QnA = [
         a: ["While the link between stress and high blood pressure is still being studied, stress is known to contribute to risk factors like a poor diet and excessive alcohol consumption"]
     },
     {
-        q: ["(How|) (do|should|can) (I|one) control (my|the|) (hypertension|HTN|blood pressure level)?"],
-        a: ["Exercise - aerobic, dynamic resistance, and isometric resistance - is an effective means of lowering blood pressure. You should also: lose weight if you are overweight, choose a diet low in fat and rich in fruits, vegetables, and low-fat dairy products, reduce the amount of salt you eat, reduce how much alcohol you drink, if you drink more than 2 alcoholic drinks per day, and use a home blood pressure meter. People who check their own blood pressure at home do better at keeping it low and can sometimes even reduce the amount of medicine they take"]
-    },
-    {
         q: ["Am I on the right (med_|medication_|drug_|medicine)?"],
         a: ["If your doctor or nurse has prescribed blood pressure medicine, the most important thing you can do is to take it. If it causes side effects, do not just stop taking it. Instead, talk to your doctor or nurse about the problems it causes. They might be able to lower your dose or switch you to another medicine. If cost is a problem, mention that too. They might be able to put you on a less expensive medicine. Taking your blood pressure medicine can keep you from having a heart attack or stroke, and it can save your life!"]
     },
@@ -238,10 +210,6 @@ project.QnA = [
     {
         q: ["(When|How often) (do|should) I (need to|) follow up with my doctor?"],
         a: ["Your doctor will likely recommend more-frequent readings if you've already been diagnosed with high blood pressure or have other risk factors for cardiovascular disease. Making the diagnosis of hypertension requires the integration of multiple blood pressure readings, the use of appropriate technique, and also the use of measurements made outside of the usual office setting. Your HCP will determine which tests will be ordered and the treatment plan and follow-up"]
-    },
-    {
-        q: ["How can (I|one) (manage|deal with|cope with) (stress|anxiety)?"],
-        a: ["Fight stress with healthy habits. Give yourself enough time to get things done. Learn to say “no.” Don’t promise too much. Think about problems under your control and make a plan to solve them. Know your stress triggers. Relaxing is important. Spend time developing supportive and nurturing relationships. Give yourself the gift of a healthy lifestyle. Practice gratitude. Know what brings you pleasure and find ways to enjoy the experience."]
     },
     {
         q: ["Are there (organic|) foods to help with (hypertension|HTN|blood pressure) (management|)?"],
@@ -259,6 +227,10 @@ project.QnA = [
         q: ["What (are|is) (the|) (normal|good|healthy) blood pressure (range_|level_)?"],
         a: ["Blood pressure numbers of less than 120/80 mm Hg are considered within the normal range"]
     },
+	{
+        q: ["(How|) (do|should|can) (I|one) control (my|the|) (hypertension|HTN|blood pressure level)?"],
+        a: ["Exercise - aerobic, dynamic resistance, and isometric resistance - is an effective means of lowering blood pressure. You should also: lose weight if you are overweight, choose a diet low in fat and rich in fruits, vegetables, and low-fat dairy products, reduce the amount of salt you eat, reduce how much alcohol you drink, if you drink more than 2 alcoholic drinks per day, and use a home blood pressure meter. People who check their own blood pressure at home do better at keeping it low and can sometimes even reduce the amount of medicine they take"]
+    },
     {
         q: ["When (do|should) I (need to|) (panic|be concerned)?", "At what blood pressure (level_|) (do|should) I (need to|) (call|contact) (my|the|) (PCP|primary care provider) or (go to|visit) (the|) ED?"],
         a: ["If your blood pressure readings suddenly exceed 180/120 mm Hg, wait five minutes and then test your blood pressure again. If your readings are still unusually high, contact your doctor immediately. You could be experiencing a hypertensive crisis. If your blood pressure is higher than 180/120 mm Hg and you are experiencing signs of possible organ damage such as chest pain, shortness of breath, back pain, numbness/weakness, change in vision or difficulty speaking, do not wait to see if your pressure comes down on its own. Call 911"]
@@ -266,10 +238,6 @@ project.QnA = [
     {
         q: ["I feel weak, is (that|it) (because of|due to|caused by) (my|the|) (hypertension|HTN|blood pressure)?"],
         a: ["Generalized weakness or tiredness may be a symptom of HTN"]
-    },
-    {
-        q: ["I have headache, is (that|it) (because of|due to|caused by) (my|the|) (hypertension|HTN|blood pressure)?"],
-        a: ["Headaches are a very common medical complaint. Headaches are generally classified into 3 main categories: migraine, tension-type headache, and cluster headache. There also secondary headaches which are a result of an underlying health condition. Although headaches can be a cause of your hypertension in the case of hypertensive emergency, it's likely not true for those 3 main types of headaches. It's important to contact your health care provider to further discuss your specific headache symptoms, duration, and severity"]
     },
     {
         q: ["Are generic (med_|medication_|drug_|medicine) (for|against|) (hypertension|HTN|blood pressure) (just as|) good as brand (med_|medication_|drug_|medicine|one_)?"],
@@ -289,8 +257,80 @@ project.QnA = [
     }
 ];
 
-for (let {q, a} of project.QnA) {
+project.longAnswers = [
+{
+        q: ["(Does|Can) (stress|anxiety) (affect|raise|increase|elevate|impact|cause) (my|the|) (high|increased|) (blood|) (sugar|glucose) (level_|)?"],
+        a: ["Yes, stress can raise your blood glucose levels. Your body releases stress hormones when you are stressed. These hormones make it difficult for insulin to function properly, therefore causing your blood sugar to rise. "], 
+	    d: ["Prolonged stress can potentially cause diabetic complications. Type 1 diabetics who suffer from chronic stress may experience a drop in blood sugar with prolonged exposures to stress and adrenal fatigue syndrome. Discuss with your medical provider on coping mechanisms for your stress and to ensure your blood sugar is under control"]
+    },
+    {
+        q: ["Does (physical|) (excercise|activity) (help|reduce|decrease|lower|affect|improve|impact) (my|the|) (blood|) (sugar|glucose) (level_|)?"],
+        a: ["Yes, exercise is beneficial for those with or without diabetes. Generally, exercise can help lower and regulate your blood sugar levels if you are regularly active and helps with quality of life. "], 
+		d: ["Exercise can also cause your blood sugar to rise. Certain workouts such as sprinting, heavy weightlifting , HIIT workouts, etc., can cause your body to produce stress hormones, which increase your blood sugar levels. It is recommended to check blood sugar before and after activities to help identify qs your body responds to. Discuss with your healthcare provider prior starting an exercise program or regimen"]
+    },
+	{
+        q: ["(Does|Can) (hypertension|HTN|high blood pressure) (cause|lead to) (a|the|) heart (problem_|disease_|attack)?"],
+        a: ["High blood pressure causes excess strain on the coronary arteries serving the heart muscle. These arteries slowly become narrowed by plaque, which is a buildup of fat, cholesterol and other substances. "], 
+		d: ["As arteries harden with plaque, blood clots are more likely to form. When an artery becomes blocked due to plaque buildup or a blood clot, the flow of blood through the heart muscle is blocked, starving the muscle of oxygen and nutrients. The damage or death of part of the heart muscle that occurs as a result is a heart attack."]
+    },
+	{
+        q: ["What (is|are) (the|) (different|) (types|classes|kinds|) (of|) (hypertension|HTN|high blood pressure) (med_|medication_|drug_|medicine) side effects?"],
+        a: ["Some common side effects of high blood pressure medicines include: cough, swelling beneath the skin, severe allergic reaction, low blood pressure, lightheadedness and headaches"],
+        d: ["Thiazide diuretics side effects include: low potassium, low sodium, low magnesium levels, increased plasma glucose levels, and increase cholesterol levels. However, the probability of developing these side effects and their severity are less likely when with low-dose therapy. Long-acting calcium channel blockers: side effects vary with the type and dosage--with dihydropyridines, you can experience lightheadedness, headaches, flushing, and swelling to your legs. With non-dihydropyridines (diltiazem & verapamil), one can experience constipation, slow heart rate. Angiotensin-converting enzyme (ACE) inhibitors: side effects include cough, swelling beneath the skin, severe allergic reaction, low blood pressure, kidney injury, and high potassium levels. Angiotensin II receptor blockers (ARBs): side effects are similar to those of ACE inhibitors, however ARBS have lower incidences of cough and swelling under the skin and probably an increased rate of low blood pressure symptoms than ACE inhibitors"]
+    }, 
+    {
+        q: ["(Does|Do) (smoking|cigarettes|tobbaco) (cause_|lead_ to) (hypertension|HTN|high blood pressure)?"],
+        a: ["Long term tobacco smoking and its association with causing hypertension is uncertain"], 
+        d: ["Immediate consequences of tobacco smoking can transiently increase your blood pressure, increase your heart rate and cause your heart to increase its demand for oxygen consumption. Moreover, tobacco smoking significantly increases risk of fatty deposits building up in your arteries and kidney disease if you have hypertension"]
+    },
+    {
+        q: ["Are there any symptoms (I will|) (feel|get|have|)?", "What are (the|) (hypertension|HTN|high blood pressure) symptoms?"],
+        a: ["Most of the time there are no symptoms. "], 
+        d: ["About 103 million U.S. adults have high blood pressure — and many of them do not know it or do not experience typical symptoms. This is why HTN is often called the silent killer. A few people with high blood pressure may have headaches, shortness of breath or nosebleeds, but these signs and symptoms aren't specific and usually don't occur until high blood pressure has reached a severe or life-threatening stage"]
+    },
+    {
+        q: ["How can (I|one) (manage|deal with|cope with) (stress|anxiety)?"],
+        a: ["Fight stress with healthy habits. Give yourself enough time to get things done. Learn to say “no.” "],
+        d: ["Don’t promise too much. Think about problems under your control and make a plan to solve them. Know your stress triggers. Relaxing is important. Spend time developing supportive and nurturing relationships. Give yourself the gift of a healthy lifestyle. Practice gratitude. Know what brings you pleasure and find ways to enjoy the experience."]
+    },
+    {
+        q: ["I have headache, is (that|it) (because of|due to|caused by) (my|the|) (hypertension|HTN|blood pressure)?"],
+        a: ["Headaches are a very common medical complaint. Headaches are generally classified into 3 main categories: migraine, tension-type headache, and cluster headache."],
+        d: ["There also secondary headaches which are a result of an underlying health condition. Although headaches can be a cause of your hypertension in the case of hypertensive emergency, it's likely not true for those 3 main types of headaches. It's important to contact your health care provider to further discuss your specific headache symptoms, duration, and severity"]
+    },
+]
+
+function playSample(q,a){
     intent(q, p => { 
         p.play(_.sample(a));
-    })
+    });
 }
+
+function playDetailedSample(q,a,d){
+    intent(q, p => { 
+        p.play(_.sample(a));
+        p.play("Do you want to hear more?");
+        p.state.detailed = d;
+        p.then(detailedAnswer, {state: p.state});
+    });
+}
+
+for (let {q, a} of project.QnA) {
+    playSample(q,a);
+}
+
+for (let {q, a, d} of project.longAnswers) {
+    playDetailedSample(q,a,d);
+}
+
+let detailedAnswer = context(() => {
+    intent('(Yes|Sure|Go on|I want to|Of course|Please do)', p => {
+        p.play(_.sample(p.state.detailed));
+        p.resolve();
+    });
+
+    intent('(No|Skip it|I do not want to|Stop|Enough)', p => {
+        p.play('OK', 'No problem', 'Sure', 'Got it');
+        p.resolve();
+    });
+});
