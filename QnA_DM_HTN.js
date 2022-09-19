@@ -227,7 +227,7 @@ project.QnA = [
         q: ["What (are|is) (the|) (normal|good|healthy) blood pressure (range_|level_)?"],
         a: ["Blood pressure numbers of less than 120/80 mm Hg are considered within the normal range"]
     },
-	{
+    {
         q: ["(How|) (do|should|can) (I|one) control (my|the|) (hypertension|HTN|blood pressure level)?"],
         a: ["Exercise - aerobic, dynamic resistance, and isometric resistance - is an effective means of lowering blood pressure. You should also: lose weight if you are overweight, choose a diet low in fat and rich in fruits, vegetables, and low-fat dairy products, reduce the amount of salt you eat, reduce how much alcohol you drink, if you drink more than 2 alcoholic drinks per day, and use a home blood pressure meter. People who check their own blood pressure at home do better at keeping it low and can sometimes even reduce the amount of medicine they take"]
     },
@@ -258,22 +258,22 @@ project.QnA = [
 ];
 
 project.longAnswers = [
-{
+    {
         q: ["(Does|Can) (stress|anxiety) (affect|raise|increase|elevate|impact|cause) (my|the|) (high|increased|) (blood|) (sugar|glucose) (level_|)?"],
         a: ["Yes, stress can raise your blood glucose levels. Your body releases stress hormones when you are stressed. These hormones make it difficult for insulin to function properly, therefore causing your blood sugar to rise. "], 
-	    d: ["Prolonged stress can potentially cause diabetic complications. Type 1 diabetics who suffer from chronic stress may experience a drop in blood sugar with prolonged exposures to stress and adrenal fatigue syndrome. Discuss with your medical provider on coping mechanisms for your stress and to ensure your blood sugar is under control"]
+        d: ["Prolonged stress can potentially cause diabetic complications. Type 1 diabetics who suffer from chronic stress may experience a drop in blood sugar with prolonged exposures to stress and adrenal fatigue syndrome. Discuss with your medical provider on coping mechanisms for your stress and to ensure your blood sugar is under control"]
     },
     {
         q: ["Does (physical|) (excercise|activity) (help|reduce|decrease|lower|affect|improve|impact) (my|the|) (blood|) (sugar|glucose) (level_|)?"],
         a: ["Yes, exercise is beneficial for those with or without diabetes. Generally, exercise can help lower and regulate your blood sugar levels if you are regularly active and helps with quality of life. "], 
-		d: ["Exercise can also cause your blood sugar to rise. Certain workouts such as sprinting, heavy weightlifting , HIIT workouts, etc., can cause your body to produce stress hormones, which increase your blood sugar levels. It is recommended to check blood sugar before and after activities to help identify qs your body responds to. Discuss with your healthcare provider prior starting an exercise program or regimen"]
+        d: ["Exercise can also cause your blood sugar to rise. Certain workouts such as sprinting, heavy weightlifting , HIIT workouts, etc., can cause your body to produce stress hormones, which increase your blood sugar levels. It is recommended to check blood sugar before and after activities to help identify qs your body responds to. Discuss with your healthcare provider prior starting an exercise program or regimen"]
     },
-	{
+    {
         q: ["(Does|Can) (hypertension|HTN|high blood pressure) (cause|lead to) (a|the|) heart (problem_|disease_|attack)?"],
         a: ["High blood pressure causes excess strain on the coronary arteries serving the heart muscle. These arteries slowly become narrowed by plaque, which is a buildup of fat, cholesterol and other substances. "], 
-		d: ["As arteries harden with plaque, blood clots are more likely to form. When an artery becomes blocked due to plaque buildup or a blood clot, the flow of blood through the heart muscle is blocked, starving the muscle of oxygen and nutrients. The damage or death of part of the heart muscle that occurs as a result is a heart attack."]
+        d: ["As arteries harden with plaque, blood clots are more likely to form. When an artery becomes blocked due to plaque buildup or a blood clot, the flow of blood through the heart muscle is blocked, starving the muscle of oxygen and nutrients. The damage or death of part of the heart muscle that occurs as a result is a heart attack."]
     },
-	{
+    {
         q: ["What (is|are) (the|) (different|) (types|classes|kinds|) (of|) (hypertension|HTN|high blood pressure) (med_|medication_|drug_|medicine) side effects?"],
         a: ["Some common side effects of high blood pressure medicines include: cough, swelling beneath the skin, severe allergic reaction, low blood pressure, lightheadedness and headaches"],
         d: ["Thiazide diuretics side effects include: low potassium, low sodium, low magnesium levels, increased plasma glucose levels, and increase cholesterol levels. However, the probability of developing these side effects and their severity are less likely when with low-dose therapy. Long-acting calcium channel blockers: side effects vary with the type and dosage--with dihydropyridines, you can experience lightheadedness, headaches, flushing, and swelling to your legs. With non-dihydropyridines (diltiazem & verapamil), one can experience constipation, slow heart rate. Angiotensin-converting enzyme (ACE) inhibitors: side effects include cough, swelling beneath the skin, severe allergic reaction, low blood pressure, kidney injury, and high potassium levels. Angiotensin II receptor blockers (ARBs): side effects are similar to those of ACE inhibitors, however ARBS have lower incidences of cough and swelling under the skin and probably an increased rate of low blood pressure symptoms than ACE inhibitors"]
@@ -324,13 +324,25 @@ for (let {q, a, d} of project.longAnswers) {
 }
 
 let detailedAnswer = context(() => {
-    intent('(Yes|Sure|Go on|I want to|Of course|Please do)', p => {
-        p.play(_.sample(p.state.detailed));
-        p.resolve();
-    });
+    intent(
+        "(Sure|Absolutely|Naturally|Definitely|Of course|Right|That is right|That's right|You bet|OK|Okey|Fine|Fine with me|Why not|No problem)",
+        "(Yes|Yeap|Yeah) (please|)",
+        "(Please|) (go|move|proceed|continue|carry|keep going) (on|ahead|for it|)",
+        "I (do|want|want to|do want|do want to)",
+        p => {
+            p.play(_.sample(p.state.detailed));
+            p.resolve();
+        }
+    );
 
-    intent('(No|Skip it|I do not want to|Stop|Enough)', p => {
-        p.play('OK', 'No problem', 'Sure', 'Got it');
-        p.resolve();
-    });
+    intent(
+        "(No|Negative|No way|Never|Not now)",
+        "(Skip|Cancel|Undo|Stop|Abort) (it|)",
+        "(Please|) (do not|don't)",
+        "I (do not|don't) (want|want to)",
+        p => {
+            p.play('(OK, no problem|Sure|Got it)');
+            p.resolve();
+        }
+    );
 });
