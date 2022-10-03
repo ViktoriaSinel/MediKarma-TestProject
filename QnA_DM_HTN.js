@@ -56,7 +56,7 @@ project.QnA = [
         a: ["Yes, it can be immediately life-threatening"]
     },
     {
-        q: ["At what level_ of (blood|) (sugar|glucose) should I (be|) (concerned|panic)?", "What level_ of (blood|) (sugar|glucose) (is|are) (dangerous|unhealthy|bad)?"],
+        q: ["At what level_ of (blood|) (sugar|glucose) should I (be|) (concerned|worried|panic)?", "What level_ of (blood|) (sugar|glucose) (is|are) (dangerous|unhealthy|bad)?"],
         a: ["Less than 70 mg/dl or well above the normal range of 70-150 mg/dl. Complications of type 1 and type 2 diabetes can lead to developing Diabetic-ketoacidosis or Hyperosmolar nonketotic syndrome with blood sugar levels greater than 250 mg/dl or levels as high as 600 mg/dl or higher"]
     },
     {
@@ -212,7 +212,7 @@ project.QnA = [
         a: ["Your doctor will likely recommend more-frequent readings if you've already been diagnosed with high blood pressure or have other risk factors for cardiovascular disease. Making the diagnosis of hypertension requires the integration of multiple blood pressure readings, the use of appropriate technique, and also the use of measurements made outside of the usual office setting. Your HCP will determine which tests will be ordered and the treatment plan and follow-up"]
     },
     {
-        q: ["Are there (organic|) foods to help with (hypertension|HTN|blood pressure) (management|)?"],
+        q: ["(Is|Are) there (organic|) (food_|dishes_|meal_|diet_) to help with (hypertension|HTN|blood pressure) (management|)?"],
         a: ["There is no scientific proof that eating organic provides proven health benefits"]
     },
     {
@@ -232,7 +232,7 @@ project.QnA = [
         a: ["Exercise - aerobic, dynamic resistance, and isometric resistance - is an effective means of lowering blood pressure. You should also: lose weight if you are overweight, choose a diet low in fat and rich in fruits, vegetables, and low-fat dairy products, reduce the amount of salt you eat, reduce how much alcohol you drink, if you drink more than 2 alcoholic drinks per day, and use a home blood pressure meter. People who check their own blood pressure at home do better at keeping it low and can sometimes even reduce the amount of medicine they take"]
     },
     {
-        q: ["When (do|should) I (need to|) (panic|be concerned)?", "At what blood pressure (level_|) (do|should) I (need to|) (call|contact) (my|the|) (PCP|primary care provider) or (go to|visit) (the|) ED?"],
+        q: ["When (do|should) I (need to|) (be|) (panic|concerned|worried)?", "At what blood pressure (level_|) (do|should) I (need to|) (call|contact) (my|the|) (PCP|primary care provider) or (go to|visit) (the|) ED?"],
         a: ["If your blood pressure readings suddenly exceed 180/120 mm Hg, wait five minutes and then test your blood pressure again. If your readings are still unusually high, contact your doctor immediately. You could be experiencing a hypertensive crisis. If your blood pressure is higher than 180/120 mm Hg and you are experiencing signs of possible organ damage such as chest pain, shortness of breath, back pain, numbness/weakness, change in vision or difficulty speaking, do not wait to see if your pressure comes down on its own. Call 911"]
     },
     {
